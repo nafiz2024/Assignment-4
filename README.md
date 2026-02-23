@@ -49,7 +49,9 @@ Job Application Tracker is a simple web application to track and manage job appl
 
   Ans:-
     const div = document.createElement("div");
+
     div.textContent = "Hello World";
+    
     document.body.appendChild(div);
 
 
