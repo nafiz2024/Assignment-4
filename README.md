@@ -36,12 +36,10 @@ Job Application Tracker is a simple web application to track and manage job appl
 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
   Ans:-
+
 -> getElementById() → Selects a single element by its unique id.
-
 -> getElementsByClassName() → Returns all elements with a specific class (live HTMLCollection).
-
 -> querySelector() → Returns the first element that matches a CSS selector.
-
 -> querySelectorAll() → Returns all elements matching a CSS selector (NodeList).
 
 
@@ -57,19 +55,19 @@ Job Application Tracker is a simple web application to track and manage job appl
 3. What is Event Bubbling? And how does it work?
 
   Ans:-
+
 Event Bubbling is when an event starts from the target element and propagates up through parent elements. Parent elements can detect the same event.
 
 
 4. What is Event Delegation in JavaScript? Why is it useful?
 
   Ans:-
+
 Event Delegation allows a parent element to handle events for multiple child elements.
 
 Benefits:
 -> Fewer event listeners → better performance
-
 -> Works with dynamically added elements
-
 -> Simplifies code maintenance
 
     document.getElementById("list").addEventListener("click", (event) => {
@@ -82,6 +80,6 @@ Benefits:
 5. What is the difference between preventDefault() and stopPropagation() methods?
 
 Ans:-
--> preventDefault() → Stops the browser’s default behavior (like form submission).
 
+-> preventDefault() → Stops the browser’s default behavior (like form submission).
 -> stopPropagation() → Stops the event from propagating to parent elements.
